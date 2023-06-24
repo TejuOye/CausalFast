@@ -7,6 +7,12 @@ Details coming soon
 #### H4
 ##### H5
 ###### H6
+<br>
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+<br>
 
 This site was built using [GitHub Pages](https://pages.github.com/). <br><br>
 :memo: A complete link of github pages emoji [GitHub Pages Emoji](https://gist.github.com/rxaviers/7360908).<br>
