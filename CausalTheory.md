@@ -1,7 +1,8 @@
 # Primer of Causal History and Theory
 ### For data scientists with little or no knowledge about causal inference
 ```diff
-Table of Contents:<br>
+Table of Contents:
+
 1.   Lesson 1: Causality Defined
 2.   Lesson 2: Correlation and Causation
 3.   Lesson 3: Pearl's Theory of Causation
