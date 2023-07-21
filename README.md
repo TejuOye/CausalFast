@@ -7,7 +7,7 @@
         <td>Read the Primer to Causal Theory used by DoWhy [Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br></td>
     </tr>
 </table>
-
+Read the Primer to Causal Theory used by DoWhy [Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). 
 ```diff
 - text in red
 + text in green
