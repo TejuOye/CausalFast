@@ -11,7 +11,7 @@ For centuries philosophers and scientists have considered the meaning of causal 
 2)	Scientific interpretation: Causes are inactive nodes in a law-like implication chain
   a.	A is the cause of B if, given the occurrence of B, A must have occurred
 
-**_Causality, causation, or cause and effect_** is the influence of one process/state on the production of another process/state where the cause is partially responsible for the effect, and the effect is partially responsible for the cause, and generally a process has several causes.
+**_Causality, causation, or cause and effect_** is the influence of one process/state on the production of another process/state where the cause is partially responsible for the effect. Generally a process has several causes which all are in its past.
 
 **_Causal inference_** is the process behind determining the effects of a phenomenon within a larger system. The most effective way to determine the causal effect is through the use of randomized controlled trials (RCT). As RCT are costly and complex, and in some situations may be impossible to perform. When an RCT cannot be performed a natural experiment/observational study may provide inference. 
 
