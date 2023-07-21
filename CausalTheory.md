@@ -8,6 +8,7 @@ Table of Contents:
 3.   Lesson 3: Pearl's Theory of Causation
 4.   Lesson 4: Causal Models
 5.   Lesson 5: DoWhy
+6.   Lesson 6: Causal Modeling in Python Using DoWhy, EconML, CausalFast
 ```
 ### Lesson 1: Causality Defined
 
@@ -26,7 +27,7 @@ For centuries philosophers and scientists have considered the meaning of causal 
 ### Lesson 2: Correlation and Causation
 **_"Correlation does not imply causation"_** is a phrase most people have heard before, and the reference is that association between two variables, based on correlation alone, does not establish a cause-and-effect relationship. Indeed, **_spurious correlations_** can exist which are not causal. For this reason, while association alone can be used in statistical models for prediction or classification, it is not sufficient for use in high assurance situations where decisions must be made based on reliable information.  There are four main causal elements: 
 1.  Correlation
-2.  A sequence of cause before effect
+2.  A sequence of events, with the cause before effect
 3.  A plausible mechanism for an effect to follow the cause
 4.  The ability to eliminate common or alternative causes (special causes).
 
@@ -63,16 +64,37 @@ Pearl also created a general theory of causation satisfies the following conditi
 Since RCT are frequently impossible to create, observational data can be used to determine the effect of a treatment, policy, or intervention through **_Propensity Score Matching_**. Propensity score matching uses statistical approaches to control for bias in the covariates that predict receiving treatment. Bias occurs due to ‘confounding variables’ that have an effect on the outcome and are associated with both the outcome and the treatment. That is to say, the outcome may be caused by something that predicts treatment rather than caused by the treatment itself. Randomization in RCT will generally balance out this bias, but observational studies do not have truly random assignment of treatment to subjects. However, with a large enough observational data of subjects that received treatment v subjects that did not receive treatment, it is possible to use ‘matching’ to reduce bias due to confounding. Matching is a quasi-experimental approach to reduce bias by matching treated units with untreated units that have similar covariates in order to compare and estimate outcome. 
 
 In computer science, causal and effect using observational data for two variables X -> Y or Y -> X is typically determined by incorporating noise into a model, such as Y = F(X) + E (additive noise). These models have their own assumptions, such that there are no other causes of Y, and that X and E have no common causes, and the distribution of cause is independent from causal mechanisms. 
+->>Confounders/confounding variables
+->>Endogeneous variables, exogenous variable
+->>Chains, Forks, Colliders
 
-### Lesson 5: DoWhy
+### Lesson 5: Causal Effects Estimation
+4 esimators: ATE CATE ATT ATC
+primarily logistic with a binary outcome
+special case regression is linear under OLS assumptions
+->>Estimands: Frontdoor, backdoor, instrumental variable
+
+### Lesson 6: DoWhy + EconMl
 DoWhy is the premier python library for causal inference using graphical causal models. It has become popular due to its simple four step process of modeling and testing causal assumptions. The four steps of causal inference in DoWhy are:
 1)	Create a causal model from data and a graph
 2)	Identify the causal effect in the model and return the estimand
 3)	Estimate the target estimand using a statistical method
 4)	Refute the obtained estimate to determine robustness of the estimate
 
-### Lesson 6: Causal Modeling in Python Using DoWhy, EconML, CausalFast
+### Lesson 7: Causal Modeling in Python Using DoWhy, EconML, CausalFast
 ->>Packages/libraries/specification or system requirements: Python, Dowhy, EconMl, CausalFast
 ->>Link to Jupyter Notebooks
-->>Link to Pypi.org simulator
-->>Link to Data
+
+
+
+Notes: 
+1) Link to spurious correlation
+2) Elaborate on causal need
+3) Section 4: Causal Models add structural equation models (structural models x SEM) and graphical casaul models (graphical models x GCM DAGs)
+4) Section 4: Graphical models specifically: Backdoor (unconfounded), Frondoor (unobserved confounders), and Instrumental Variables  (3 types used by dowhy, but others exist)
+5) Section 5: causal effects estimation: Linear and Logistic Regression
+6) Section 6: 4 step of causality in dowhy, explain choose a regressor, also choose an estimation unit (att, atc, etc.)
+7) Section 6: Machine learning for special cases: high dimensional datasets and unusual bias/correlations 
+8) ->>Link to Pypi.org simulator
+9) ->>Link to Data
+10) ->>Counterfactual
