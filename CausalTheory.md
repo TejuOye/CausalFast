@@ -7,8 +7,9 @@ Table of Contents:
 2.   Lesson 2: Correlation and Causation
 3.   Lesson 3: Pearl's Theory of Causation
 4.   Lesson 4: Causal Models
-5.   Lesson 5: DoWhy
-6.   Lesson 6: Causal Modeling in Python Using DoWhy, EconML, CausalFast
+5.   Lesson 5: Causal Effects Estimation
+6.   Lesson 6: DoWhy + EconML
+6.   Lesson 7: Causal Modeling in Python Using DoWhy, EconML, CausalFast
 ```
 ### Lesson 1: Causality Defined
 
