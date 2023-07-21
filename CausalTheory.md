@@ -22,8 +22,16 @@ For centuries philosophers and scientists have considered the meaning of causal 
 4.  The ability to eliminate common or alternative causes (special causes).
 
 ### Lesson 2: Correlation and Causation
-Judea Pearl is a computer scientist who developed probabilistic Bayesian Networks, but has also contributed to causality through development of structural models and do-calculus, a notation for describing causal relationships. According to Pearl, statistical expressions and causal expressions should not be defined in terms of the other, and causal relationships require their own mathematical notation. An example is that while statistical dependence has a notation based in probability, such as P(disease|symptom), this expression is insufficient to quantify the causal dependence as there is no causal expression in probability calculus. This lack of consensus regarding causal theory and notation was the main barrier to acceptance of causal analysis among statistical professionals.
-Pearl described causality as having three levels and he called this ‘The Ladder of Causation’.
+**_Judea Pearl_** is a computer scientist who developed probabilistic Bayesian Networks, but has also contributed to causality through development of structural models and do-calculus, a notation for describing causal relationships. According to Pearl, statistical expressions and causal expressions should not be defined in terms of the other, and causal relationships require their own mathematical notation. An example is that while statistical dependence has a notation based in probability, such as P(disease|symptom), this expression is insufficient to quantify the causal dependence as there is no causal expression in probability calculus. This lack of consensus regarding causal theory and notation was the main barrier to acceptance of causal analysis among statistical professionals.
+
+Pearl proposed that a general theory of causation must meet five conditions:
+1.  Have a mathematical language that represents causal questions
+2.  A precise language to describe assumptions necessary to answer causal questions
+3.  Able to systematically answer these questions or label others as ‘unanswerable’
+4.  Able to determine what assumptions or information is needed to answer ‘unanswerable questions’
+5.  Subsume all other theories that explore causation: become the foundational theory that unifies special cases
+
+Pearl described causality as having three levels and he called this **_The Ladder of Causation_**.
 This is an example about the causal relationships between a buyer shopping for toothpaste and floss.
 Lowest level: Association P(floss|toothpaste)
 Ex: Shoppers who buy toothpaste are more likely to buy dental floss
@@ -31,13 +39,6 @@ Mid Level: Intervention P(floss|do(toothpaste))
 Ex: Probability of buying floss given an intervention on toothpaste price. (keep in mind, price cannot be used alone to estimate probability, since a confounder, such as a tariff, could increase the price of toothpaste and floss together).
 Highest level: Counterfactual P(floss|toothpaste,price*2)
 Ex: Probability of buying floss given the store doubled the price of toothpaste?
-
-**_Pearl_** proposed that a general theory of causation must meet five conditions:
-1.  Have a mathematical language that represents causal questions
-2.  A precise language to describe assumptions necessary to answer causal questions
-3.  Able to systematically answer these questions or label others as ‘unanswerable’
-4.  Able to determine what assumptions or information is needed to answer ‘unanswerable questions’
-5.  Subsume all other theories that explore causation: become the foundational theory that unifies special cases
 
 **_"Correlation does not imply causation"_** is a phrase most people have heard before, and the reference is that association between two variables, based on correlation alone, does not establish a cause-and-effect relationship. Indeed, spurious correlations can exist which are not causal. For this reason, while association alone can be used in statistical models for prediction or classification, it is not sufficient for use in situations where decisions must be made based on reliable information. An example of causal theory applied to epidemiology would be the Bradford Hill Criteria for causation. 
 
