@@ -32,7 +32,7 @@ For centuries philosophers and scientists have considered the meaning of causal 
 3.  A plausible mechanism for an effect to follow the cause
 4.  The ability to eliminate common or alternative causes (special causes).
 
-Correlation, in a causal context, that is correlation between covariates with a causal sequence and mechanism, can be measured and modelled with the correct data, and when these assumptions are met it is possible to obtain reasonable answers to causal questions. An example of causal theory applied to epidemiology would be the Bradford Hill Criteria for causation.  Hill proposed 9 principles that establish epidemiologic evidence of a causal relationship between a cause and an observed effect. These nine criteria are:
+Correlation, in a causal context, that is correlation between variables with a causal sequence and mechanism, can be measured and modelled with the correct data, and when these assumptions are met it is possible to obtain reasonable answers to causal questions. An example of causal theory applied to epidemiology would be the Bradford Hill Criteria for causation.  Hill proposed 9 principles that establish epidemiologic evidence of a causal relationship between a cause and an observed effect. These nine criteria are:
 1.  Strength (effect size, small associations can be causal, but strong associations has greater likelihood)
 2.  Consistency (reproducibility)
 3.  Specificity (no other likely explanation)
