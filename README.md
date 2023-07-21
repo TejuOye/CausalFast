@@ -6,7 +6,7 @@
 
 <table>
     <tr>
-        <td>Additional Details coming soon</td>
+        <td> 2.   Download the CausalFast API for use with DoWhy [Here](https://test.pypi.org/project/causalfast/). </td>
     </tr>
 </table>
 
