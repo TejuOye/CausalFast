@@ -6,7 +6,12 @@
 
 <table>
     <tr>
-        <td> 2.   Download the CausalFast API for use with DoWhy [Here](https://test.pypi.org/project/causalfast/). </td>
+        <td>  1.   Read the Primer to Causal Theory used by DoWhy:  https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>  2.   Download the CausalFast API for use with DoWhy:  https://test.pypi.org/project/causalfast/ </td>
     </tr>
 </table>
 
