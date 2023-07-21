@@ -28,7 +28,7 @@ Ex: Probability of buying floss given an intervention on toothpaste price. (keep
 Highest level: Counterfactual P(floss|toothpaste,price*2)
 Ex: Probability of buying floss given the store doubled the price of toothpaste?
 
-**Pearl** proposed that a general theory of causation must meet five conditions:
+**_Pearl_** proposed that a general theory of causation must meet five conditions:
 1.  Have a mathematical language that represents causal questions
 2.  A precise language to describe assumptions necessary to answer causal questions
 3.  Able to systematically answer these questions or label others as ‘unanswerable’
