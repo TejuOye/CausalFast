@@ -2,12 +2,9 @@
 #### An API and Causality Theory for using DoWhy in Python
 
 
-<table>
-    <tr>
-        <td>
+
             Read the Primer to Causal Theory used by DoWhy [here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br>
-    </tr>
-</table>
+
 Read the Primer to Causal Theory used by DoWhy [Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). 
 ```diff
 - text in red
