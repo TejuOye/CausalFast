@@ -1,7 +1,12 @@
-# Capstone
-# Colored text #1
+# CausalFast
+#### An API and Causality Theory for using DoWhy in Python
 
-You can use the diff language tag to generate some colored text:
+
+<table>
+    <tr>
+        <td>Read the Primer to Causal Theory used by DoWhy[Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br></td>
+    </tr>
+</table>
 
 ```diff
 - text in red
