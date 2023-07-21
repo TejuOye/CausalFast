@@ -2,8 +2,9 @@
 #### An API and Causality Theory for using DoWhy in Python
 
 Read the Primer to Causal Theory used by DoWhy [here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br>
+Download the CausalFast API for use with DoWhy [Here](https://test.pypi.org/project/causalfast/). <br><br>
 
-Read the Primer to Causal Theory used by DoWhy [Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). 
+
 ```diff
 - text in red
 + text in green
