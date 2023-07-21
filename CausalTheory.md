@@ -62,4 +62,9 @@ Since RCT are frequently impossible to create, observational data can be used to
 In computer science, causal and effect using observational data for two variables X -> Y or Y -> X is typically determined by incorporating noise into a model, such as Y = F(X) + E (additive noise). These models have their own assumptions, such that there are no other causes of Y, and that X and E have no common causes, and the distribution of cause is independent from causal mechanisms. 
 
 ### Lesson 5: DoWhy
+DoWhy is the premier python library for causal inference using graphical causal models. It has become popular due to its simple four step process of modeling and testing causal assumptions. The four steps of causal inference in DoWhy are:
+1)	Create a causal model from data and a graph
+2)	Identify the causal effect in the model and return the estimand
+3)	Estimate the target estimand using a statistical method
+4)	Refute the obtained estimate to determine robustness of the estimate
 
