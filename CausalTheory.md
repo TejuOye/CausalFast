@@ -9,10 +9,10 @@
 ## Lesson 1: Causality Defined
 ```diff
 For centuries philosophers and scientists have considered the meaning of causal reasoning. In Plato’s Timaeus it is written “everything that becomes or changes must do so owing to some cause; for nothing can come without a cause”. Since then, many philosophers including David Hume and Immanuel Kant have made contributions the concept of cause, which ultimately can be separated into two dominant conceptions:<br>
-> 1)	Aristotelian interpretation: Causes are the active initiators of change
-> a.	A is the cause of B means A initiates change in B
-> 2)	Scientific interpretation: Causes are inactive nodes in a law-like implication chain
-> a.	A is the cause of B if, given the occurrence of B, A must have occurred
+1.	Aristotelian interpretation: Causes are the active initiators of change
+  a.	A is the cause of B means A initiates change in B
+2)	Scientific interpretation: Causes are inactive nodes in a law-like implication chain
+  a.	A is the cause of B if, given the occurrence of B, A must have occurred
 <br>
 **‘Causality, causation, or cause and effect’**, is the influence of one process/state on the production of another process/state where the cause is partially responsible for the effect, and the effect is partially responsible for the cause, and generally a process has several causes.
 <br>
