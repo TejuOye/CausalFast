@@ -8,7 +8,7 @@
 
 ## Lesson 1: Causality Defined
 
-`For centuries philosophers and scientists have considered the meaning of causal reasoning. In Plato’s Timaeus it is written “everything that becomes or changes must do so owing to some cause; for nothing can come without a cause”. Since then, many philosophers including David Hume and Immanuel Kant have made contributions the concept of cause, which ultimately can be separated into two dominant conceptions:`
+For centuries philosophers and scientists have considered the meaning of causal reasoning. In Plato’s Timaeus it is written “everything that becomes or changes must do so owing to some cause; for nothing can come without a cause”. Since then, many philosophers including David Hume and Immanuel Kant have made contributions the concept of cause, which ultimately can be separated into two dominant conceptions:
 1.	Aristotelian interpretation: Causes are the active initiators of change
   a.	A is the cause of B means A initiates change in B
 2)	Scientific interpretation: Causes are inactive nodes in a law-like implication chain
