@@ -1,5 +1,6 @@
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")# CausalFast
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+# CausalFast
 #### An API and Causality Theory for using DoWhy in Python
 
 1.   Read the Primer to Causal Theory used by DoWhy [here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md).
