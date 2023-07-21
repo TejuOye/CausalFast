@@ -4,7 +4,6 @@
 2.   Lesson 2: Correlation and Causation
 ```
 Details coming soon
-# H1
 ## H2
 ### H3
 #### H4
