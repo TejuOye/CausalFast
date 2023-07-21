@@ -4,14 +4,23 @@
 1.   Read the Primer to Causal Theory used by DoWhy [here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md).
 2.   Download the CausalFast API for use with DoWhy [Here](https://test.pypi.org/project/causalfast/).
 
+<table>
+    <tr>
+        <td>Additional Details coming soon</td>
+    </tr>
+</table>
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+<br><br>
+>  ### Update 7/22/2023
+> 
+> 1.   :x:CausalFast is still in development.
+> 2.   :triangular_flag_on_post:API + Theory + Sourcecode are expected to launch by 8/1/23
+> 
+> Install CausalFast using the following command:
+> 
+>     pip install -i https://test.pypi.org/simple/ causalfast
+
+
 Details coming soon
 # H1
 ## H2
@@ -57,22 +66,3 @@ _italic_
 <br>
 
 <sub>subscript text</sub>
-<br>
-> ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
-
-<br><br>
->  ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
