@@ -4,7 +4,7 @@
 
 <table>
     <tr>
-        <td>Read the Primer to Causal Theory used by DoWhy[Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br></td>
+        <td>Read the Primer to Causal Theory used by DoWhy [Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br></td>
     </tr>
 </table>
 
