@@ -1,4 +1,5 @@
 # Primer of Causal History and Theory
+### For data scientists with little or no knowledge about causal inference
 ```diff
 1.   Lesson 1: Causality Defined
 2.   Lesson 2: Correlation and Causation
@@ -68,4 +69,8 @@ DoWhy is the premier python library for causal inference using graphical causal 
 3)	Estimate the target estimand using a statistical method
 4)	Refute the obtained estimate to determine robustness of the estimate
 
+### Lesson 6: Causal Modeling in Python Using DoWhy, EconML, CausalFast
 ->>Packages/libraries/specification or system requirements: Python, Dowhy, EconMl, CausalFast
+->>Link to Jupyter Notebooks
+->>Link to Pypi.org simulator
+->>Link to Data
