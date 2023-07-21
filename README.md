@@ -19,6 +19,6 @@
 > 
 > Install CausalFast using the following command:
 > 
->     pip install -i https://test.pypi.org/simple/ causalfast;
+>     pip install -i https://test.pypi.org/simple/ causalfast
 >
 <br>
