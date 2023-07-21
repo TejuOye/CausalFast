@@ -3,12 +3,6 @@
 1.   Lesson 1: Causality Defined
 2.   Lesson 2: Correlation and Causation
 ```
-Details coming soon
-## H2
-### H3
-#### H4
-##### H5
-###### H6
 ### Lesson 1: Causality Defined
 
 For centuries philosophers and scientists have considered the meaning of causal reasoning. In Plato’s Timaeus it is written “everything that becomes or changes must do so owing to some cause; for nothing can come without a cause”. Since then, many philosophers including David Hume and Immanuel Kant have made contributions the concept of cause, which ultimately can be separated into two dominant conceptions:
