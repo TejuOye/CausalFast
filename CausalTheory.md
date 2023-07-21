@@ -1,8 +1,8 @@
 # Primer of Causal History and Theory
 
 ```diff
-> 1.   Lesson 1: Causality Defined
-> 2.   Lesson 2: Correlation and Causation
+1.   Lesson 1: Causality Defined
+2.   Lesson 2: Correlation and Causation
 ```
 <br><br>
 ## Lesson 1: Causality Defined
