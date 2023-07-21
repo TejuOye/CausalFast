@@ -68,3 +68,4 @@ DoWhy is the premier python library for causal inference using graphical causal 
 3)	Estimate the target estimand using a statistical method
 4)	Refute the obtained estimate to determine robustness of the estimate
 
+->>Packages/libraries/specification or system requirements: Python, Dowhy, EconMl, CausalFast
