@@ -4,7 +4,7 @@
 
 <table>
     <tr>
-        <td>Read the Primer to Causal Theory used by DoWhy [Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br></td>
+        <td>Read the Primer to Causal Theory used by DoWhy [Here](). <br><br></td>
     </tr>
 </table>
 Read the Primer to Causal Theory used by DoWhy [Here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). 
@@ -29,7 +29,7 @@ Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 <br>
 
-This site was built using [GitHub Pages](https://pages.github.com/). <br><br>
+This site was built using [here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md). <br><br>
 :memo: A complete link of github pages emoji [GitHub Pages Emoji](https://gist.github.com/rxaviers/7360908).<br>
 :open_file_folder:<br>
 :email:<br>
