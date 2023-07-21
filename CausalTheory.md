@@ -13,7 +13,7 @@ For centuries philosophers and scientists have considered the meaning of causal 
 
 **_Causality, causation, or cause and effect_** is the influence of one process/state on the production of another process/state where the cause is partially responsible for the effect. Generally a process has several causes which all are in its past.
 
-**_Causal inference_** is the process behind determining the effects of a phenomenon within a larger system. The gold standard to determine causal effect is through the use of randomized controlled trials (RCT). As RCT are costly and complex, and in some situations may be impossible to perform. When an RCT cannot be performed a natural experiment/observational study may provide inference. 
+**_Causal inference_** is the process behind determining the effects of a phenomenon within a larger system. The gold standard for determining causal effect is through the use of randomized controlled trials (RCT). However, RCT are costly and complex and in many situations may be impossible to perform. When an RCT cannot be performed, a natural experiment/observational study may provide data that can be used for causal inference. 
 
 **_Causal analysis_** can be thought of as the practice of applying experimental design and statistics to establish cause and effect. There are usually four elements: correlation, a sequence of cause before effect, a plausible mechanism for an effect to follow the cause, the ability to eliminate common or alternative causes (special causes). Causal analysis can be performed by observational studies, but due to issues such as confounding, quasi-experimental approaches using statistics require assumptions to produce ‘good’ estimates with observational data. 
 
