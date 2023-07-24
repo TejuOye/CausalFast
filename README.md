@@ -6,10 +6,10 @@
 2.   Download the CausalFast API for use with DoWhy [here](https://test.pypi.org/project/causalfast/).
 
 
-<br><br>
-
-
 <br>
+
+
+<br><br>
 >  ### Update 7/25/2023
 > 
 > 1.   :white_check_mark:CausalFast Beta is available.
@@ -22,7 +22,7 @@
 <br>
 
 
-<br>
+<br><br>
 >  ### Update 7/22/2023
 > 
 > 1.   :x:CausalFast is still in development.
@@ -35,7 +35,7 @@
 <br>
 
 
-<br>
+<br><br>
 >  ### Update 6/26/2023
 > 
 > 1.   :x:Alpha API is available from test.pypi.org.
