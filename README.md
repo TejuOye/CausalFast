@@ -22,14 +22,6 @@
 <br>
 
 <br><br>
->  ### Update 7/22/2023
-> 
-> 1.   :x:CausalFast is still in development.
-> 2.   :x:API + Specifications + Theory + Jupyter Notebooks ETA 8/1/23
->
-<br>
-
-<br><br>
 >  ### Update 6/26/2023
 > 
 > 1.   :x:Alpha API is available from test.pypi.org.
