@@ -2,8 +2,9 @@
 # CausalFast
 #### An API and Causality Theory for using DoWhy in Python
 
-1.   Read the Primer to Causal Theory used by DoWhy [here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md).
-2.   Download the CausalFast API for use with DoWhy [here](https://test.pypi.org/project/causalfast/).
+1.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md).
+2.   Download the CausalFast API for use with DoWhy [`here`](https://test.pypi.org/project/causalfast/).
+3.   PGA Data: Explore determinants for players selecting to compete in tournaments [`here`](https://github.com/TejuOye/CausalFast/blob/main/PGA-data.md).
 
 
 <br>
