@@ -1,4 +1,4 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Placeholder Logo")
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/logo.png "CausalFast")
 # CausalFast
 #### An API and Causality Theory for using DoWhy in Python
 
