@@ -5,7 +5,9 @@
 1.   Read the Primer to Causal Theory used by DoWhy [here](https://github.com/TejuOye/CausalFast/blob/main/CausalTheory.md).
 2.   Download the CausalFast API for use with DoWhy [here](https://test.pypi.org/project/causalfast/).
 
+
 <br>
+
 
 <br>
 >  ### Update 7/25/2023
@@ -19,6 +21,7 @@
 >
 <br>
 
+
 <br>
 >  ### Update 7/22/2023
 > 
@@ -30,6 +33,7 @@
 >     pip install -i https://test.pypi.org/simple/ causalfast
 >
 <br>
+
 
 <br>
 >  ### Update 6/26/2023
