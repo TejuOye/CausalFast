@@ -26,10 +26,6 @@
 > 
 > 1.   :x:CausalFast is still in development.
 > 2.   :x:API + Specifications + Theory + Jupyter Notebooks ETA 8/1/23
-> 
-> Install CausalFast using the following command:
-> 
->     pip install -i https://test.pypi.org/simple/ causalfast
 >
 <br>
 
@@ -38,9 +34,5 @@
 > 
 > 1.   :x:Alpha API is available from test.pypi.org.
 > 2.   :x:Work in Progress: API + Specifications + Theory + Jupyter Notebooks
-> 
-> Install CausalFast using the following command:
-> 
->     pip install -i https://test.pypi.org/simple/ causalfast
 >
 <br>
