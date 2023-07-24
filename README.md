@@ -7,9 +7,6 @@
 3.   PGA Data: Determinants for pros to compete [`here`](https://github.com/TejuOye/CausalFast/blob/main/PGA-data.md).
 
 
-<br>
-
-
 <br><br>
 >  ### Update 7/25/2023
 > 
