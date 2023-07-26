@@ -6,7 +6,7 @@
 2.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CausalTheory.md).
 <br>
 
-####Tutorials:
+<b>Tutorials:</b>
 -   DAG and CausalModel Maker Tool [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/CausalDAGMaker.ipynb)
 -   DoWhy Causal Estimand Tutorial [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/EstimandTutorials.ipynb)
 -   Titanic Data: Survival Propensity: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md). (Notebook Coming Soon)
