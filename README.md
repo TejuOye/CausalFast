@@ -4,8 +4,8 @@
 
 1.   Download the CausalFast API for use with DoWhy [`here`](https://test.pypi.org/project/causalfast/).
 2.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CausalTheory.md).
-3.   PGA Data: Determinants for pros to compete [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/PGA.md).
-4.   Titanic Data: Survival Propensity: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md).
+3.   Titanic Data: Survival Propensity: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md).
+4.   PGA Data: Determinants for pros to compete [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/PGA.md).
 
 
 <br><br>
