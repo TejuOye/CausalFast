@@ -104,8 +104,8 @@ Further Reading:
 
 
  References:
-<sup><sub>[1]</sup></sub> https://plato.stanford.edu/entries/aristotle-causality/
-<sup><sub>[2]</sup></sub> https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm
-<sup><sub>[3]</sup></sub> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/
-<sup><sub>[4]</sup></sub> https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf
-<sup><sub>[5]</sup></sub> https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf
+[<sup><sub>[1]</sup></sub>](https://plato.stanford.edu/entries/aristotle-causality/)
+[<sup><sub>[2]</sup></sub>](https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm)
+[<sup><sub>[3]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/)
+[<sup><sub>[4]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf)
+[<sup><sub>[5]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf)
