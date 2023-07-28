@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "causalfast"
-version = "0.2.9"
+version = "0.3.0"
 description = "An API for running DoWhy simulations"
 readme = "README.md"
 authors = [{ name = "TejuOye", email = "nsmc11@protonmail.com" }]
 license = { file = "LICENSE" }
-repository = "https://github.com/TejuOye/CausalFast"
+
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
