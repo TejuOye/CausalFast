@@ -88,12 +88,12 @@ DoWhy is the premier python library for causal inference using graphical causal 
 Further Reading:<br>
 [Theory of Causation](https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/theory-of-causation.html) - Carnegie Mellon University, Department of Philosophy
 
-<br>
  References:
-[<sup><sub>[1]</sup></sub>](https://plato.stanford.edu/entries/aristotle-causality/)
-[<sup><sub>[2]</sup></sub>](https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm)
-[<sup><sub>[3]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/)
-[<sup><sub>[4]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf)
-[<sup><sub>[5]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf)
-[<sup><sub>[6]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782596/pdf/nihms737705.pdf)
-[<sup><sub>[7]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943670/pdf/nihms200640.pdf)
+
+[<sup><sub>[1]</sup></sub>](https://plato.stanford.edu/entries/aristotle-causality/) 
+[<sup><sub>[2]</sup></sub>](https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm) 
+[<sup><sub>[3]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/) 
+[<sup><sub>[4]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf) 
+[<sup><sub>[5]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf) 
+[<sup><sub>[6]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782596/pdf/nihms737705.pdf) 
+[<sup><sub>[7]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943670/pdf/nihms200640.pdf) 
