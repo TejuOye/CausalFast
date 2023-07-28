@@ -24,13 +24,13 @@ For centuries philosophers and scientists have considered the meaning of causal 
 **_Causal analysis_** can be thought of as the practice of applying experimental design and statistics to establish cause and effect. Causal analysis can be performed on observational data. However, due to issues such as confounding, quasi-experimental approaches using statistics require assumptions to produce ‘good’ estimates with observational data.
 
 ### Lesson 2: Correlation and Causation
-**_"Correlation does not imply causation"_** is a phrase most people have heard before, and the reference is that association between two variables, based on correlation alone, does not establish a cause-and-effect relationship. Indeed, **_spurious correlations_** can exist which are not causal. For this reason, while association can be used in statistical models for prediction or classification, it is not sufficient for use in high assurance situations where decisions are being made based on reliable information.  There are four main causal elements: 
+**_"Correlation does not imply causation"_** is a phrase most people have heard before, and the reference is that association between two variables, based on correlation alone, does not establish a cause-and-effect relationship. Indeed, **_spurious correlations_** can exist which are not causal. For this reason, while association can be used in statistical models for prediction or classification, it is not sufficient for use in high assurance situations where decisions are being made based on reliable information. There are four main causal elements: 
 1.  Correlation
 2.  A sequence of events, with the cause before effect
 3.  A plausible mechanism for an effect to follow the cause
 4.  The ability to eliminate common or alternative causes (special causes).
 
-Correlation, in a causal context, that is correlation between variables with a causal sequence and mechanism, can be measured and modelled with the correct data, and when these assumptions are met it is possible to obtain reasonable answers to causal questions. An example of causal theory applied to epidemiology would be the Bradford Hill Criteria for causation.  Hill proposed 9 principles that establish epidemiologic evidence of a causal relationship between a cause and an observed effect. These nine criteria are:
+Correlation, in a causal context, that is correlation between variables with a causal sequence and mechanism, can be measured and modelled with the correct data, and when these assumptions are met it is possible to obtain reasonable answers to causal questions. Loosely defined causal models based on these four main causal elements may provide valuable insight. However, from a epidemiological perspective the four main causal elements alone would not be sufficient. An example of causal theory applied to epidemiology would be the Bradford Hill Criteria for causation. Hill proposed 9 'aspects of association' that establish epidemiologic evidence of a causal relationship between a cause and an observed effect. These nine criteria are:
 1.  Strength (effect size, small associations can be causal, but strong associations has greater likelihood)
 2.  Consistency (reproducibility)
 3.  Specificity (no other likely explanation)
@@ -39,23 +39,23 @@ Correlation, in a causal context, that is correlation between variables with a c
 6.  Plausibility (knowledge of the causal mechanism is helpful)
 7.  Coherence (between epidemiological and laboratory findings)
 8.  Experiment (If ethical experiments can be used to demonstrate a causality)
-9.  Analogy (similarities between observed association and other associations)
+9.  Analogy (similarities between observed association and other associations) <sup><sub>[3]</sup></sub>
 
 ### Lesson 3: Pearl's Theory of Causation
-**_Judea Pearl_** is a computer scientist who developed probabilistic Bayesian Networks, but he also contributed to causality through development of structural models and do-calculus, a notation for describing causal relationships. According to Pearl, statistical expressions and causal expressions should not be defined in terms of the other, and causal relationships require their own mathematical notation. An example is that while statistical dependence has a notation based in probability, such as P(disease|symptom), this expression is insufficient to quantify the causal dependence as there is no causal expression in probability calculus. This lack of consensus regarding causal theory and notation was the main barrier to acceptance of causal analysis among statistical professionals.
+**_Judea Pearl_** is a computer scientist who developed probabilistic Bayesian Networks, but he also contributed to causality through development of structural models and do-calculus, a notation for describing causal relationships. According to Pearl, statistical expressions and causal expressions should not be defined in terms of the other, and causal relationships require their own mathematical notation. An example is that while statistical dependence has a notation based in probability, such as P(disease|symptom), this expression is insufficient to quantify the causal dependence as there is no causal expression in probability calculus. This lack of consensus regarding causal theory and notation was the main barrier to acceptance of causal analysis among statistical professionals. <sup><sub>[4]</sup></sub>
 
 Pearl described causality as having three levels and he called this **_The Ladder of Causation_**.
 This is an example about the causal relationships between a buyer shopping for toothpaste and floss.
-Bottom level: Association P(floss|toothpaste)
-Middle Level: Intervention P(floss|do(toothpaste))
-Highest level: Counterfactual P(floss|toothpaste,price*2)
+Bottom level: Association (Seeing): What does a symptom tell me about a disease?
+Middle Level: Intervention (Intervening): What if I take aspirin, will my headache be cured?
+Highest level: Counterfactual (Retrospection): Was it aspirin that stopped my headache? <sup><sub>[5]</sup></sub>
 
 Pearl also created a general theory of causation satisfies the following conditions:
 1.  Have a mathematical language that represents causal questions
 2.  A precise language to describe assumptions necessary to answer causal questions
 3.  Able to systematically answer these questions or label others as ‘unanswerable’
 4.  Able to determine what assumptions or information is needed to answer ‘unanswerable questions’
-5.  Subsume all other theories that explore causation: become the foundational theory that unifies special cases
+5.  Subsume all other theories that explore causation: become the foundational theory that unifies special cases <sup><sub>[4]</sup></sub>
 
 ### Lesson 4: Causal Models
 **_The Rubin Causal Model_** is an approach to quantitatively analyze cause and effect using a **_Potential Outcomes Framework_**. The potential outcomes framework is a counterfactual conditional model to determine what would an outcome have been if the cause or treatment had been different or intervened on. With observational data, it is impossible to know for certain what any other potential outcome would have been. This is known as the **_Fundamental Problem of Causal Inference_**. And while this is true for unit level analysis, the use of randomized experiments at the population level can estimate an average causal effect between two groups. This estimate is known as the **_Average Treatment Effect_** (ATE).
@@ -104,5 +104,8 @@ Further Reading:
 
 
  References:
- [1] https://plato.stanford.edu/entries/aristotle-causality/
- [2] https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm
+<sup><sub>[1]</sup></sub> https://plato.stanford.edu/entries/aristotle-causality/
+<sup><sub>[2]</sup></sub> https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm
+<sup><sub>[3]</sup></sub> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/
+<sup><sub>[4]</sup></sub> https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf
+<sup><sub>[5]</sup></sub> https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf
