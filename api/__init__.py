@@ -3,7 +3,7 @@
 Detailed documentation and user guides are available at
 [https://github.com/TejuOye/CausalFast](https://github.com/TejuOye/CausalFast).
 """
-__version__ = "0.2.9"
+__version__ = "0.3.0"
 from causalfast.causalfastapi import functions
 simulator = functions.simulator
 makegraph = functions.makegraph
