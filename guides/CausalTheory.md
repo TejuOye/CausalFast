@@ -14,8 +14,8 @@ Table of Contents:
 ### Lesson 1: Causality Defined
 
 For centuries philosophers and scientists have considered the meaning of causal reasoning. In Plato’s Timaeus it is written “everything that becomes or changes must do so owing to some cause; for nothing can come without a cause”. Since then, many philosophers including David Hume and Immanuel Kant have made contributions the concept of cause, which ultimately can be separated into two dominant conceptions:
-1.	Aristotle's interpretation: Metaphysical cause, to understand why phenomena occurs we must understand its 1) physical nature, 2) its purpose, 3) method of change, 4) the outcome [1]
-2)	Scientific interpretation: Causes are nodes in law-like chain: A causes B if, given B, A must have occurred [2]
+1.	Aristotle's interpretation: Metaphysical cause, to understand why phenomena occurs we must understand its 1) physical nature, 2) its purpose, 3) method of change, 4) the outcome <sup><sub>[1]</sup></sub>
+2)	Scientific interpretation: Causes are nodes in law-like chain: A causes B if, given B, A must have occurred <sup><sub>[2]</sup></sub>
 
 **_Causality, causation, or cause and effect_** is the influence of one state on the production of another state where the cause has partial responsibility for the effect. A process may have numerous causes in its past.
 
