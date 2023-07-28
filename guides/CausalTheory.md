@@ -58,11 +58,10 @@ Pearl also created a general theory of causation satisfies the following conditi
 5.  Subsume all other theories that explore causation: become the foundational theory that unifies special cases <sup><sub>[4]</sup></sub>
 
 ### Lesson 4: Causal Models
-**_The Rubin Causal Model_** is an approach to quantitatively analyze cause and effect using a **_Potential Outcomes Framework_**. The potential outcomes framework is a counterfactual conditional model to determine what would an outcome have been if the cause or treatment had been different or intervened on. With observational data, it is impossible to know for certain what any other potential outcome would have been. This is known as the **_Fundamental Problem of Causal Inference_**. And while this is true for unit level analysis, the use of randomized experiments at the population level can estimate an average causal effect between two groups. This estimate is known as the **_Average Treatment Effect_** (ATE).
+**_The Rubin Causal Model_** is an approach to quantitatively analyze cause and effect using a **_Potential Outcomes Framework_**. The potential outcomes framework is a counterfactual conditional model to determine what would an outcome have been if the cause or treatment had been different or intervened on. With observational data, it is impossible to know for certain what any other potential outcome would have been. This is known as the **_Fundamental Problem of Causal Inference_**. And while this is true for unit level analysis, the use of randomized experiments at the population level can estimate an average causal effect between two groups. This estimate is known as the **_Average Treatment Effect_** (ATE). <sup><sub>[6]</sup></sub>
 
-Since RCT are frequently impossible to create, observational data can be used to determine the effect of a treatment, policy, or intervention through **_Propensity Score Matching_**. Propensity score matching uses statistical approaches to control for bias in the covariates that predict receiving treatment. Bias occurs due to ‘confounding variables’ that have an effect on the outcome and are associated with both the outcome and the treatment. That is to say, the outcome may be caused by something that predicts treatment rather than caused by the treatment itself. Randomization in RCT will generally balance out this bias, but observational studies do not have truly random assignment of treatment to subjects. However, with a large enough observational data of subjects that received treatment v subjects that did not receive treatment, it is possible to use ‘matching’ to reduce bias due to confounding. Matching is a quasi-experimental approach to reduce bias by matching treated units with untreated units that have similar covariates in order to compare and estimate outcome. 
+Since RCT are frequently impossible to create, observational data can be used to determine the effect of a treatment, policy, or intervention through **_Propensity Score Matching_**. Propensity score matching uses statistical approaches to control for bias in the covariates that predict receiving treatment. Bias occurs due to ‘confounding variables’ that have an effect on the outcome and are associated with both the outcome and the treatment. That is to say, the outcome may be caused by something that predicts treatment rather than caused by the treatment itself. Randomization in RCT will generally balance out this bias, but observational studies do not have truly random assignment of treatment to subjects. However, with a large enough observational data of subjects that received treatment v subjects that did not receive treatment, it is possible to use ‘matching’ to reduce bias due to confounding. Matching is a quasi-experimental approach to reduce bias by matching treated units with untreated units that have similar covariates in order to compare and estimate outcome. <sup><sub>[7]</sup></sub>
 
-In computer science, causal and effect using observational data for two variables X -> Y or Y -> X is typically determined by incorporating noise into a model, such as Y = F(X) + E (additive noise). These models have their own assumptions, such that there are no other causes of Y, and that X and E have no common causes, and the distribution of cause is independent from causal mechanisms. 
 ->>Confounders/confounding variables
 ->>Endogeneous variables, exogenous variable
 ->>Chains, Forks, Colliders
@@ -84,26 +83,17 @@ DoWhy is the premier python library for causal inference using graphical causal 
 ->>Packages/libraries/specification or system requirements: Python, Dowhy, EconMl, CausalFast
 ->>Link to Jupyter Notebooks
 
-
-
-Notes: 
-3) Section 4: Causal Models add structural equation models (structural models x SEM) and graphical casaul models (graphical models x GCM DAGs)
-4) Section 4: Graphical models specifically: Backdoor (unconfounded), Frondoor (unobserved confounders), and Instrumental Variables  (3 types used by dowhy, but others exist)
-5) Section 5: causal effects estimation: Linear and Logistic Regression
-6) Section 6: 4 step of causality in dowhy, explain choose a regressor, also choose an estimation unit (att, atc, etc.)
-7) Section 6: Machine learning for special cases: high dimensional datasets and unusual bias/correlations 
-8) ->>Link to Pypi.org simulator
-9) ->>Link to Data
-10) ->>Counterfactual
-
+<br><br>
 
 Further Reading:<br>
 [Theory of Causation](https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/theory-of-causation.html) - Carnegie Mellon University, Department of Philosophy
 
-
+<br>
 References:<br>
 [<sup><sub>[1]</sup></sub>](https://plato.stanford.edu/entries/aristotle-causality/)
 [<sup><sub>[2]</sup></sub>](https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm)
 [<sup><sub>[3]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/)
 [<sup><sub>[4]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf)
 [<sup><sub>[5]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf)
+[<sup><sub>[6]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782596/pdf/nihms737705.pdf)
+[<sup><sub>[7]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943670/pdf/nihms200640.pdf)
