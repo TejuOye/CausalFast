@@ -299,6 +299,9 @@ class functions:
                     refuterbattery(estimate=estimate,method='placebo_treatment_refuter', placebo_type2="permute")
                     refuterbattery(estimate=estimate,method='bootstrap_refuter')
             returnstatement()
+            checkdat = cmodel._data
+            cols_to_keep = [c for c in checkdat.columns if c != 'propensity_score' and c != 'strata' and c != 'dbar' and c != 'd_y' and c != 'dbar_y']
+            cmodel._data = cmodel._data[cols_to_keep]
             return estimate, pscores
 
         elif full_output == True:
@@ -406,7 +409,9 @@ class functions:
                     refuterbattery(estimate=estimate[0],method='placebo_treatment_refuter', placebo_type2="permute")
                     refuterbattery(estimate=estimate[0],method='bootstrap_refuter')
             returnstatement()
-            return estimate[0], estimate[1]
+            checkdat = cmodel._data
+            cols_to_keep = [c for c in checkdat.columns if c != 'propensity_score' and c != 'strata' and c != 'dbar' and c != 'd_y' and c != 'dbar_y']
+            cmodel._data = cmodel._data[cols_to_keep]
         else:
             mainmenu()
 
