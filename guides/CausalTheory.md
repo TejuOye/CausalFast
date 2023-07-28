@@ -14,19 +14,17 @@ Table of Contents:
 ### Lesson 1: Causality Defined
 
 For centuries philosophers and scientists have considered the meaning of causal reasoning. In Plato’s Timaeus it is written “everything that becomes or changes must do so owing to some cause; for nothing can come without a cause”. Since then, many philosophers including David Hume and Immanuel Kant have made contributions the concept of cause, which ultimately can be separated into two dominant conceptions:
-1.	Aristotelian interpretation: Causes are the active initiators of change
-  a.	A is the cause of B means A initiates change in B
-2)	Scientific interpretation: Causes are inactive nodes in a law-like implication chain
-  a.	A is the cause of B if, given the occurrence of B, A must have occurred
+1.	Aristotle's interpretation: Metaphysical cause, to understand why phenomena occurs we must understand its 1) physical nature, 2) its purpose, 3) method of change, 4) the outcome [1]
+2)	Scientific interpretation: Causes are nodes in law-like chain: A causes B if, given B, A must have occurred [2]
 
-**_Causality, causation, or cause and effect_** is the influence of one process/state on the production of another process/state where the cause is partially responsible for the effect. Generally a process has several causes which all are in its past.
+**_Causality, causation, or cause and effect_** is the influence of one state on the production of another state where the cause has partial responsibility for the effect. A process may have numerous causes in its past.
 
-**_Causal inference_** is the process behind determining the effects of a phenomenon within a larger system. The gold standard for determining causal effect is through the use of randomized controlled trials (RCT). However, RCT are costly and complex and in many situations may be impossible to perform. When an RCT cannot be performed, a natural experiment/observational study may provide data that can be used for causal inference.
+**_Causal inference_** is the process of determining the effects of a phenomenon within a system. The gold standard for determining causal effect is through the use of randomized controlled trials (RCT). However, RCT are costly and complex and in many situations may be impossible to perform. When an RCT cannot be performed, a natural experiment/observational study may provide data that can be used for causal analysis.
 
-**_Causal analysis_** can be thought of as the practice of applying experimental design and statistics to establish cause and effect. Causal analysis can be performed by observational studies, but due to issues such as confounding, quasi-experimental approaches using statistics require assumptions to produce ‘good’ estimates with observational data.
+**_Causal analysis_** can be thought of as the practice of applying experimental design and statistics to establish cause and effect. Causal analysis can be performed on observational data. However, due to issues such as confounding, quasi-experimental approaches using statistics require assumptions to produce ‘good’ estimates with observational data.
 
 ### Lesson 2: Correlation and Causation
-**_"Correlation does not imply causation"_** is a phrase most people have heard before, and the reference is that association between two variables, based on correlation alone, does not establish a cause-and-effect relationship. Indeed, **_spurious correlations_** can exist which are not causal. For this reason, while association alone can be used in statistical models for prediction or classification, it is not sufficient for use in high assurance situations where decisions must be made based on reliable information.  There are four main causal elements: 
+**_"Correlation does not imply causation"_** is a phrase most people have heard before, and the reference is that association between two variables, based on correlation alone, does not establish a cause-and-effect relationship. Indeed, **_spurious correlations_** can exist which are not causal. For this reason, while association can be used in statistical models for prediction or classification, it is not sufficient for use in high assurance situations where decisions are being made based on reliable information.  There are four main causal elements: 
 1.  Correlation
 2.  A sequence of events, with the cause before effect
 3.  A plausible mechanism for an effect to follow the cause
@@ -99,3 +97,12 @@ Notes:
 8) ->>Link to Pypi.org simulator
 9) ->>Link to Data
 10) ->>Counterfactual
+
+
+Further Reading:
+ [Theory of Causation](https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/theory-of-causation.html) - Carnegie Mellon University, Department of Philosophy
+
+
+ References:
+ [1] https://plato.stanford.edu/entries/aristotle-causality/
+ [2] https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm
