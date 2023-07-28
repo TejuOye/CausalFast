@@ -87,8 +87,6 @@ DoWhy is the premier python library for causal inference using graphical causal 
 
 
 Notes: 
-1) Link to spurious correlation
-2) Elaborate on causal need
 3) Section 4: Causal Models add structural equation models (structural models x SEM) and graphical casaul models (graphical models x GCM DAGs)
 4) Section 4: Graphical models specifically: Backdoor (unconfounded), Frondoor (unobserved confounders), and Instrumental Variables  (3 types used by dowhy, but others exist)
 5) Section 5: causal effects estimation: Linear and Logistic Regression
@@ -99,11 +97,11 @@ Notes:
 10) ->>Counterfactual
 
 
-Further Reading:
- [Theory of Causation](https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/theory-of-causation.html) - Carnegie Mellon University, Department of Philosophy
+Further Reading:<br>
+[Theory of Causation](https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/theory-of-causation.html) - Carnegie Mellon University, Department of Philosophy
 
 
- References:
+References:<br>
 [<sup><sub>[1]</sup></sub>](https://plato.stanford.edu/entries/aristotle-causality/)
 [<sup><sub>[2]</sup></sub>](https://see.library.utoronto.ca/SEED/Vol4-2/Hulswit.htm)
 [<sup><sub>[3]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/)
