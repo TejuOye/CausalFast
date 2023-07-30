@@ -14,7 +14,7 @@
 
 
 <br><br>
->  ### Update 7/25/2023
+>  ### Update 7/22/2023
 > 
 > 1.   :white_check_mark:CausalFast Beta is available.
 > 2.   :triangular_flag_on_post:Specifications + Theory + Jupyter Notebooks ETA 8/1/23
