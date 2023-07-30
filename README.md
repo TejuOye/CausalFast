@@ -2,14 +2,14 @@
 # CausalFast
 #### An API and Causality Theory for using DoWhy in Python
 
-1.   Download the CausalFast API for use with DoWhy [`here`](https://test.pypi.org/project/causalfast/).
-2.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CausalTheory.md).
+1.   Download the CausalFast API for use with DoWhy [`here`](https://test.pypi.org/project/causalfast/)
+2.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CausalTheory.md)
 <br>
 
 <b>Tutorials:</b>
 -   DAG and CausalModel Maker Tool [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/CausalDAGMaker.ipynb)
 -   DoWhy Causal Estimand Tutorial [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/EstimandTutorials.ipynb)
--   Titanic Data: ATE + Propensity Scores: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md).
+-   Titanic Data: ATE + Propensity Scores: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md)
 -   PGA Data: Determinants for pros to compete [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/PGA.md). (Notebook Coming Soon)
 
 
