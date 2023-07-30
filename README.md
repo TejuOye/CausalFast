@@ -10,7 +10,7 @@
 -   DAG and CausalModel Maker Tool [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/CausalDAGMaker.ipynb)
 -   DoWhy Causal Estimand Tutorial [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/EstimandTutorials.ipynb)
 -   Titanic Data: ATE + Propensity Scores: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md)
--   PGA Data: Determinants for pros to compete [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/PGA.md). (Notebook Coming Soon)
+-   PGA Data: Determinants for pros to compete [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/PGA.md) (Notebook Coming Soon)
 
 
 <br><br>
