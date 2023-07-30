@@ -89,7 +89,7 @@ DoWhy is the premier python library for causal inference using graphical causal 
 <br><br>
 
 Further Reading:<br>
-[Hernan & Robins: What If - Causal Inference](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) - Harvard University, T.H. Chan School of Public Health
+[Hernan & Robins - What If: Causal Inference](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) - Harvard University, T.H. Chan School of Public Health
 
 References:
 [<sup><sub>[1]</sup></sub>](https://plato.stanford.edu/entries/aristotle-causality/) 
