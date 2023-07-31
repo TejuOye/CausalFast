@@ -89,8 +89,7 @@ DoWhy is the premier python library for causal inference using graphical causal 
 <br><br>
 Further Reading:<br>
 [DoWhy User Guide](https://www.pywhy.org/dowhy/main/user_guide/intro.html)
-<br><br>
-
+<br>
 [Hernan & Robins - What If: Causal Inference](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) - Harvard University, T.H. Chan School of Public Health
 
 References:
