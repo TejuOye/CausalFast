@@ -58,22 +58,22 @@ Pearl also created a general theory of causation satisfies the following conditi
 5.  Subsume all other theories that explore causation: become the foundational theory that unifies special cases <sup><sub>[4]</sup></sub>
 
 ### Lesson 4: Causal Models
-**_The Rubin Causal Model_** is an approach to quantitatively analyze cause and effect using a **_Potential Outcomes Framework_**. The potential outcomes framework is a counterfactual conditional model to determine what would an outcome have been if the cause or treatment had been different or intervened on. With observational data it is impossible to know for certain what any other potential outcome would have been. This is known as the **_Fundamental Problem of Causal Inference_**. And while this is true for unit level analysis, the use of randomized experiments at the population level can estimate an average causal effect between two groups (treatment & control). This estimate is known as the **_Average Treatment Effect (ATE)_**. <sup><sub>[6]</sup></sub>
+Generally speaking, a causal model for analysis would be a is a framework for describing the causal mechanism in a system using quantative methods. Causal models have rules (assumptions) that allow researchers to answer causal questions from observational data, but the rules of a model will be different depending on the data and causal question. **_The Rubin Causal Model (RCM)_** is describes the approach to quantitatively analyze cause and effect using a **_Potential Outcomes Framework_**. The potential outcomes framework is a counterfactual conditional model to determine what would an outcome have been if the cause or treatment had been different or intervened on. With observational data alone it is impossible to know for certain what any other potential outcome would have been. This is known as the **_Fundamental Problem of Causal Inference_**. And while this is true for unit level analysis, the use of randomized experiments on a sample/population can estimate an average causal effect between two groups (treatment & control). This estimate is known as the **_Average Treatment Effect (ATE)_**. <sup><sub>[6]</sup></sub>
 
+Since RCT are often impossible to create, observational data alone can be used to determine the effect of a treatment, policy, or intervention through **_Propensity Score Matching_**. Propensity score matching uses statistical approaches to control for bias in the covariates that predict receiving treatment. What this means is that while RCT has a random assignment to treatment and control (which eliminates bias), observational studies do not have random assignment (do to confounding factors) and this bias must be controlled for. To control for this bias, a method of regression on the covariates to the treatment (X to T), without including outcome (Y), is performed, and this results in propensity scores (measure of likelihood to receive treatment). This method commonly uses logistic regression on a binary treatment variable. <br>
+
+Whichever causal model is used for inference will have its own assumptions. Generally speaking, all observations must have the possibility of receiving both treatments. Also, there should be a **_Stable Unit Treatment Value Assumption (SUTVA)_** which implies that the assignment of treatment and outcome for one observation should not have an effect on the assignment of treatment to other observations. This could be thought of as unobserved confounders. Example: Assigning treatment causes Person A to change their behavior, and this has an effect on Person B which changes Person B's covariates that affects treatment assignment. Causal assumptions vary depending on the causal questions and approach for data analysis. Additional common assumptions to observational studies: Indentifiability, Exchangability, Positivity, Consistency. <sup><sub>[7]</sup></sub>
+
+Pearl defined a **_Structural Causal Model (SCM)_** as having 3 constitutant parts: **_Exogenous Variables_**, **_Endogenous Variables_** and **_Structural Equations_**.
+->>Endogeneous variables, exogenous variable
+->>Chains, Forks, Colliders
+
+### Lesson 5: Propensity Score Matching
 Since RCT are often impossible to create, observational data alone can be used to determine the effect of a treatment, policy, or intervention through **_Propensity Score Matching_**. Propensity score matching uses statistical approaches to control for bias in the covariates that predict receiving treatment. Bias occurs due to ‘confounding variables’ that have an effect on the outcome and are associated with both the outcome and the treatment. That is to say, the outcome may be caused by something that predicts treatment rather than caused by the treatment itself. To control for this bias, a method of regression on the covariates to the treatment (X to T), without including outcome (Y), is performed, and this results in propensity scores (measure of likelihood to receive treatment). This method commonly uses logistic regression on a binary treatment variable. <br>
 
 Using this propensity score, it is possible to match similar propensity scores in the treatment and control groups. This can be thought of as a dimension reduction technique as it is generally sufficient to match observations based on propensity scores rather than to match based on numerous covariates. By matching propensity scores, the covariate distributions of treatment and control groups should be balanced. Then, using this balanced data, it is possible to calculate the average outcome for both the treatment and control group. By taking the difference of these average outcome values we can obtain a reasonably good ATE. This is based on the assumption that similarly matched covariates will have similar outcomes (We've removed as much bias as possible).
 
-While randomization in a RCT will balance out this bias, observational studies do not have truly random assignment of treatment to subjects. However, with a large enough observational data, and the right causal data at that, of subjects that received treatment v subjects that did not receive treatment, it is possible to obtain a reasonably good causal estimate. While this is true for low precision uses, in high precision situations or when the causal pathway is unknown, such as is commonly seen in epidemiology, there will generally be more experimentation needed to obtain reliable estimates. <sup><sub>[7]</sup></sub>
-
-->>Endogeneous variables, exogenous variable
-->>Chains, Forks, Colliders
-
-### Lesson 5: Causal Effects Estimation
-4 esimators: ATE CATE ATT ATC
-primarily logistic with a binary outcome
-special case regression is linear under OLS assumptions
-->>Estimands: Frontdoor, backdoor, instrumental variable
+While randomization in a RCT will balance out this bias, observational studies do not have truly random assignment of treatment to subjects. However, with a large enough observational data, and the right causal data at that, of subjects that received treatment v subjects that did not receive treatment, it is possible to obtain a reasonably good causal estimate. While this is true for low precision uses, in high precision situations or when the causal pathway is unknown, such as is commonly seen in epidemiology, there will generally be more experimentation needed to obtain reliable estimates. <sup><sub>[8]</sup></sub>
 
 ### Lesson 6: DoWhy + EconMl
 DoWhy is the premier python library for causal inference using graphical causal models. It has become popular due to its simple four step process of modeling and testing causal assumptions. The four steps of causal inference in DoWhy are:
@@ -82,13 +82,15 @@ DoWhy is the premier python library for causal inference using graphical causal 
 3)	Estimate the target estimand using a statistical method
 4)	Refute the obtained estimate to determine robustness of the estimate
 
-### Lesson 7: Causal Modeling in Python Using DoWhy, EconML, CausalFast
+### Lesson 7: Causal Analysis in Python Using DoWhy, EconML, CausalFast
 ->>Packages/libraries/specification or system requirements: Python, Dowhy, EconMl, CausalFast
 ->>Link to Jupyter Notebooks
 
 <br><br>
-
 Further Reading:<br>
+[DoWhy User Guide](https://www.pywhy.org/dowhy/main/user_guide/intro.html)
+<br><br>
+
 [Hernan & Robins - What If: Causal Inference](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) - Harvard University, T.H. Chan School of Public Health
 
 References:
@@ -98,4 +100,5 @@ References:
 [<sup><sub>[4]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf) 
 [<sup><sub>[5]</sup></sub>](https://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf) 
 [<sup><sub>[6]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782596/pdf/nihms737705.pdf) 
-[<sup><sub>[7]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943670/pdf/nihms200640.pdf) 
+[<sup><sub>[7]</sup></sub>](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) 
+[<sup><sub>[8]</sup></sub>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943670/pdf/nihms200640.pdf) 
