@@ -1,5 +1,5 @@
 # Primer of Causal History and Theory
-### For data scientists to more easily learn causal analysis
+### For data scientists to more easily learn causal inference in Python
 ```diff
 Table of Contents:
 
