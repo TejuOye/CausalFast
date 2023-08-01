@@ -123,7 +123,12 @@ The resulting treatment effect estimate is the percentage of a standard deviatio
 ### Lesson 9: Summary
 Causal analysis can be approached using a variety of models, from looking at qualitative information and running a decision tree, towards running a quantitative analysis using regression and estimation. In any situation, covariates are used to predict treatment or outcome, and these covariates may include attributes such as age, gender, income, but also more subtle attributes such as interests, attitudes, and preference.<br>
 
-Methods of performing causal analysis include RCTs, cohort studies, observational studies, or analysis of case reports. It can involve time series data (granger causality) or observational data. Methods of modeling causal inference are using regression or propensity score modeling. We do this to infer and extrapolate causal effects that may be applicable to a larger population or to explore the causal structures in data. 
+Methods of performing causal analysis include RCTs, cohort studies, observational studies, or analysis of case reports. It can involve time series data (granger causality) or observational data. Methods of modeling causal inference are using regression or propensity score modeling. We do this to infer and extrapolate causal effects that may be applicable to a larger population or to explore the causal structures in data. <br>
+
+To learn more about Causal Inference in DoWhy, please use our tutorial notebooks in the following order:
+- DAG and CausalModel Maker Tool [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/CausalDAGMaker.ipynb)
+- DoWhy Causal Estimand Tutorial [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/EstimandTutorials.ipynb)
+- Titanic Data: ATE + Propensity Scores: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md)
 
 <br><br>
 Further Reading:<br>
