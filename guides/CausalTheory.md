@@ -101,7 +101,7 @@ DoWhy has 3 mainline API. The Causal Inference API is the focus of causalfast, b
 ![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/backdoor_small.png "Backdoor / Frontdoor")
 
 
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/IV_small.png "Instrumental Variable")
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/iv_small.png "Instrumental Variable")
 
 The Backdoor Estimand 
 
