@@ -98,10 +98,10 @@ DoWhy is the premier python library for causal inference using graphical causal 
 
 DoWhy has 3 mainline API. The Causal Inference API is the focus of causalfast, but DoWhy is developing a GCM API to perform more granular experimentation on data encoded into the causal graph. The last mainline API is the Pandas API which utilizes the Pandas package to perform causal analysis. Using the causal inference API, the first step is to build a causal model. This involves a data EDA process and then generating a DAG using domain knowledge of the causal paths between variables. When this causal model is created, DoWhy then performs the identification step. Identification uses algorithms to evalaute the DAG based on encoded causal assumptions within the structures, and DoWhy will declare the DAG to belong to at least of of three main estimation methods ('Estimand'). These are the Backdoor Estimand, The Frontdoor Estimand, and Instrumental Variable.<br>
 
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/backdoor_small.png "Backdoor / Frontdoor")
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/backdoor.png "Backdoor / Frontdoor")
 
 
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/iv_small.png "Instrumental Variable")
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/iv.png "Instrumental Variable")
 
 The Backdoor Estimand 
 
