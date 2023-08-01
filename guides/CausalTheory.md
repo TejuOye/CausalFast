@@ -11,6 +11,7 @@ Table of Contents:
 6.   Lesson 6: Causal Effects Estimation
 7.   Lesson 7: DoWhy + EconML
 8.   Lesson 8: Causal Modeling in Python Using DoWhy, EconML, CausalFast
+9.   Lesson 9: Summary
 ```
 ### Lesson 1: Causality Defined
 
@@ -96,18 +97,24 @@ DoWhy is the premier python library for causal inference using graphical causal 
 3)	Estimate the target estimand using a statistical method
 4)	Refute the obtained estimate to determine robustness of the estimate
 
-DoWhy has 3 mainline API. The Causal Inference API is the focus of causalfast, but DoWhy is developing a GCM API to perform more granular experimentation on data encoded into the causal graph. The last mainline API is the Pandas API which utilizes the Pandas package to perform causal analysis. Using the causal inference API, the first step is to build a causal model. This involves a data EDA process and then generating a DAG using domain knowledge of the causal paths between variables. When this causal model is created, DoWhy then performs the identification step. Identification uses algorithms to evalaute the DAG based on encoded causal assumptions within the structures, and DoWhy will declare the DAG to belong to at least of of three main estimation methods ('Estimand'). These are the Backdoor Estimand, The Frontdoor Estimand, and Instrumental Variable.<br>
+DoWhy has 3 mainline APIs. The Causal Inference API is the focus of causalfast, but DoWhy is developing a GCM API to perform more granular experimentation on data encoded into the causal graph. The last mainline API is the Pandas API which utilizes the Pandas package to perform causal analysis. Using the causal inference API, the first step is to build a causal model. This involves a data EDA process and then generating a DAG using domain knowledge of the causal paths between variables. Although domain knowledge is used, it is often the case that bias is present within the data due to unobserved confounders (variables that effect both treatment selection and outcome, but for which we cannot observe as a covariate). It may be required to add the unobserved confounders to the causal graph but not supply data, and DoWhy will acknowledge these unobserved confounders in its estimation. After the causal graph and model is created, DoWhy then performs the identification step. Identification uses algorithms to evalaute the DAG based on encoded causal assumptions within the structures, and DoWhy will declare the DAG to belong to at least of of three main estimation methods ('Estimand'). These are the Backdoor Estimand, The Frontdoor Estimand, and Instrumental Variable.<br>
 
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/backdoor.png "Backdoor / Frontdoor")
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/backdoor.png "Backdoor / Frontdoor")<br>
+Shown is the Backdoor Estimand. Here we have conditional dependence due to a confounder, Z1, with X as the treatment and Y as the outcome. By controlling for Z1, X and Z2 become conditionally independent. The backdoor esimand has the assumption of no unobserved confounders. In the presence of unobserved confounders, DoWhy may simply ignore them (although their bias on treatment and outcome will exist). Similarly, if the Z1 variable was the treatment and X was a mediator variable, we would control for Z2, and this would be the Frontdoor Estimand.<br><br>
 
-
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/iv.png "Instrumental Variable")
-
-The Backdoor Estimand 
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/iv.png "Instrumental Variable")<br>
+Here is the Instrumental Variable, which is a type of DAG which shows a single variable, IV, that has a direct cause of the selection/strength of the treatment X, on the outcome Y.
 
 ### Lesson 8: Causal Analysis in Python Using DoWhy, EconML, CausalFast
 ->>Packages/libraries/specification or system requirements: Python, Dowhy, EconMl, CausalFast
 ->>Link to Jupyter Notebooks
+
+Using these estimand, DoWhy will use an algorithm, typically linear regression, logistic regression using GLM, or a machine learning method to estimate the treatment effect. Alternatively, DoWhy has propensity score estimators that operate upon the backdoor estimand. It is important to know what estimation methods are available in DoWhy depending on the type of estimand. EconML estimators may be useful for nonparametric or very high dimensionality estimation of treatment effects, and these functions can be called directly within DoWhy. The resulting treatment effect estimate is the percentage of a standard deviation change in outcome from receiving the particular treatment. In its entirety, Causal Inference in DoWhy is a process of building causal models using data, generating estimates, and trying to disprove the estimate quality. While we depend upon the domain knowledge used to encode the dag, and the quality of the data in regards to completeness, bias, or otherwise, we ultimately cannot prove that our causal model represents an objective truth of the causal relationship. In this situation, we rely on methods of disproving the causal estimate, and if we are unable to disqualify the esimate, then it may be considered as reasonable. This is known in DoWhy as refutation, and it is important to all or as many refuters as possible.<br><br>
+
+### Lesson 9: Summary
+Causal analysis can be approached using a variety of models, from looking at qualitative information and running a decision tree, towards running a quantitative analysis using regression and estimation. In any situation, covariates are used to predict treatment or outcome, and these covariates may include attributes such as age, gender, income, but also more subtle attributes such as interests, attitudes, and preference.<br><br>
+
+Methods of performing causal analysis include RCTs, cohort studies, observational studies, or analysis of case reports. It can involve time series data (granger causality) or observational data. Methods of modeling causal inference are using regression or propensity score modeling. We do this to infer and extrapolate causal effects that may be applicable to a larger population or to explore the causal structures in data. 
 
 <br><br>
 Further Reading:<br>
