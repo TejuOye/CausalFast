@@ -107,15 +107,16 @@ Here is the Instrumental Variable, which is a type of DAG which shows a single v
 
 ### Lesson 8: Causal Analysis in Python Using DoWhy, EconML, CausalFast
 Using these estimand, DoWhy will use an algorithm, typically linear regression, logistic regression using GLM, or a machine learning method to estimate the treatment effect. Alternatively, DoWhy has propensity score estimators that operate upon the backdoor estimand. It is important to know what estimation methods are available in DoWhy depending on the type of estimand. EconML estimators may be useful for nonparametric or very high dimensionality estimation of treatment effects, and these functions can be called directly within DoWhy. DoWhy estimation methods in CausalFast include:
--backdoor.linear_regression
--backdoor.generalized_linear_model  (logistic)
--backdoor.econml.dr.LinearDRLearner  (logistic)
--backdoor.econml.dml.DML
--backdoor.propensity_score_stratification  (logistic)
--backdoor.propensity_score_matching  (logistic)
--backdoor.propensity_score_weighting  (logistic)
--iv.instrumental_variable
--frontdoor.two_stage_regression
+
+- backdoor.linear_regression
+- backdoor.generalized_linear_model  (logistic)
+- backdoor.econml.dr.LinearDRLearner  (logistic)
+- backdoor.econml.dml.DML
+- backdoor.propensity_score_stratification  (logistic)
+- backdoor.propensity_score_matching  (logistic)
+- backdoor.propensity_score_weighting  (logistic)
+- iv.instrumental_variable
+- frontdoor.two_stage_regression
 
 The resulting treatment effect estimate is the percentage of a standard deviation change in outcome from receiving the particular treatment. In its entirety, Causal Inference in DoWhy is a process of building causal models using data, generating estimates, and trying to disprove the estimate quality. While we depend upon the domain knowledge used to encode the dag, and the quality of the data in regards to completeness, bias, or otherwise, we ultimately cannot prove that our causal model represents an objective truth of the causal relationship. In this situation, we rely on methods of disproving the causal estimate, and if we are unable to disqualify the esimate, then it may be considered as reasonable. This is known in DoWhy as refutation, and it is important to all or as many refuters as possible.<br><br>
 
