@@ -67,9 +67,9 @@ Whichever causal model is used for inference will have its own assumptions. Gene
 Pearl defined a **_Structural Causal Model (SCM)_** as having 3 constitutant parts: **_Exogenous Variables_**, **_Endogenous Variables_** and **_Structural Equations_**.
 ->>Endogeneous variables, exogenous variable
 ->>Chains, Forks, Colliders<br>
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/chain.png "Chain")<br>
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/fork.png "Fork")<br>
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/collider.png "Collider")<br>
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/chain_small.png "Chain")<br>
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/fork_small.png "Fork")<br>
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/collider_small.png "Collider")<br>
 
 ### Lesson 5: Propensity Score Matching
 Since RCT are often impossible to create, observational data alone can be used to determine the effect of a treatment, policy, or intervention through **_Propensity Score Matching_**. Propensity score matching uses statistical approaches to control for bias in the covariates that predict receiving treatment. Bias occurs due to ‘confounding variables’ that have an effect on the outcome and are associated with both the outcome and the treatment. That is to say, the outcome may be caused by something that predicts treatment rather than caused by the treatment itself. To control for this bias, a method of regression on the covariates to the treatment (X to T), without including outcome (Y), is performed, and this results in propensity scores (measure of likelihood to receive treatment). This method commonly uses logistic regression on a binary treatment variable. <br>
