@@ -64,12 +64,24 @@ Since RCT are often impossible to create, observational data alone can be used t
 
 Whichever causal model is used for inference will have its own assumptions. Generally speaking, all observations must have the possibility of receiving both treatments. Also, there should be a **_Stable Unit Treatment Value Assumption (SUTVA)_** which implies that the assignment of treatment and outcome for one observation should not have an effect on the assignment of treatment to other observations. This could be thought of as unobserved confounders. Example: Assigning treatment causes Person A to change their behavior, and this has an effect on Person B which changes Person B's covariates that affects treatment assignment. Causal assumptions vary depending on the causal questions and approach for data analysis. Additional common assumptions to observational studies: Indentifiability, Exchangability, Positivity, Consistency. <sup><sub>[7]</sup></sub>
 
+**_Graphical Causal Models (GCM)_** are generally depicted as **_Directed Acyclic Graphics (DAGs)_** which have causal assumptions encoded within the connections between parent and ancestor nodes. Nodes are linked by arrows that display the direction of information flows between the nodes. These causal assumptions are 1) the graph must be a DAG, 2) must satisfy the Causal Markov condition, and 3) must have faithfulness/conditional independence. A DAG is a required assumption because while causal relationships are one-directional, statistical relationships are two-directional. A DAG is used to specify the direction of causal information that is used to determine the causal estimand, the causal question, and generate the causal estimate from this estimand. The Causal Markov condition states that all nodes must be independent of all other variables which are not its own parent/ancestor. Last, the faithfulness condition states that there must be no special independence between variables. This is to say that in a rare situation where two variables that would otherwise have a dependent relationship through an intermediary, but somehow have causal effects that cancel eachother out to become independent, would still be a violation of the markov condition. In short, there can only be conditional independence as implied by the markov condition, and through no other special case. These three assumptions are encoded into the GCM which is then analyzed by DoWhy. DoWhy looks at the structures within the DAG and determines which variables need to be controlled for to maintain conditional independence so as to guarantee that causal information is flowing one directionally. This allows DoWhy to generate a reasonable causal estimate using regression. There are three types of structures that must be considered:
+
+<br>
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/chain_small.png "Chain")<br>
+This is a chain structure showing X and Z that can become conditionally independent after controlling on Y.
+<br><br>
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/fork_small.png "Fork")<br>
+This is fork structure also shows X and Z can become conditionally independent after controlling on Y, and Y can be thought of as a common cause of X and Z.
+<br><br>
+![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/collider_small.png "Collider")<br>
+This collider structure is different from chains and forks in that X and Z have no parent node, and so X and Z are already conditionally independent since it is not possible for information to propogate from X to Y.
+<br><br>
+
 Pearl defined a **_Structural Causal Model (SCM)_** as having 3 constitutant parts: **_Exogenous Variables_**, **_Endogenous Variables_** and **_Structural Equations_**.
+**_Endogenous Variables_** and **_Structural Equations_**.
 ->>Endogeneous variables, exogenous variable
 ->>Chains, Forks, Colliders<br>
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/chain_small.png "Chain")<br>
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/fork_small.png "Fork")<br>
-![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/collider_small.png "Collider")<br>
+
 
 ### Lesson 5: Propensity Score Matching
 Since RCT are often impossible to create, observational data alone can be used to determine the effect of a treatment, policy, or intervention through **_Propensity Score Matching_**. Propensity score matching uses statistical approaches to control for bias in the covariates that predict receiving treatment. Bias occurs due to ‘confounding variables’ that have an effect on the outcome and are associated with both the outcome and the treatment. That is to say, the outcome may be caused by something that predicts treatment rather than caused by the treatment itself. To control for this bias, a method of regression on the covariates to the treatment (X to T), without including outcome (Y), is performed, and this results in propensity scores (measure of likelihood to receive treatment). This method commonly uses logistic regression on a binary treatment variable. <br>
