@@ -10,4 +10,4 @@ Propensity Score Matching can be used as a quasi-experimental method for causal 
 
 Our goal is to match similar propensity scores (predictions of receiving treatment based on covariates) between the treatment and control group. After matching, the distribution of our covariates should be very similar. We then take the standard mean difference of outcomes of the treatment group and the control group to estimate the average treatment effect (ATE). Using the Titanic dataset we will explore the effect of being in 3rd class on survival.
 
-<b>Tutorial Notebook:</b> DoWhy + sklearn ATE + propensity score estimation [`available here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/Titanic.ipynb) </b>
+<b>Tutorial Notebook:</b> DoWhy + sklearn ATE + propensity score estimation [`available here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/Titanic-PropensityScoreMatching-ATT.ipynb) </b>
