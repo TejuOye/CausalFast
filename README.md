@@ -23,7 +23,6 @@
 > 
 >     pip install -i https://test.pypi.org/simple/ causalfast
 >
-<br>
 
 <br><br>
 >  ### Update 7/22/2023
@@ -31,7 +30,6 @@
 > 1.   :white_check_mark:CausalFast Beta is available.
 > 2.   :triangular_flag_on_post:Specifications + Theory + Jupyter Notebooks ETA 8/1/23
 >
-<br>
 
 <br><br>
 >  ### Update 6/26/2023
