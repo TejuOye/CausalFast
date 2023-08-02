@@ -18,7 +18,7 @@
 > 
 > 1.   :white_check_mark:CausalFast Beta is available.
 > 2.   :white_check_mark:Specifications + Theory + Jupyter Notebooks are available.
-> 3.   :fire:DoWhy version 0.10 has been released!
+> 3.   :fire:DoWhy version 0.10 has been released! (Remain on 0.9.1 until 0.10.1 hotfix)
 > 
 > Install CausalFast using the following command:
 > 
