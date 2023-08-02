@@ -2,7 +2,7 @@
 <br>
 <h3>Titanic: ATE based on Propensity Score Matching</h3><br>
 
-- [`Data Available Here`](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/data/titanic.csv) 
+- [`Titanic Data Available Here`](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/data/titanic.csv) 
 - 14 Dimensions: survived, pclass, name, sex, age, sibsp, parch, ticket, fare, cabin, embarked
 - 891 observations
 <br>
