@@ -7,11 +7,23 @@
 <br>
 
 <b>Tutorials:</b>
--   DAG and CausalModel Maker Tool [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/CausalDAGMaker.ipynb)
 -   DoWhy Causal Estimand Tutorial [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/EstimandTutorials.ipynb)
+-   DAG and CausalModel Maker Tool [`here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/CausalDAGMaker.ipynb)
+-   PGA Data: Causal Inference & Effect Estimation [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/PGA.md)
 -   Titanic Data: ATE + Propensity Scores: Sklearn v DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/Titanic.md)
--   PGA Data: Determinants for pros to compete [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/PGA.md) (Notebook Coming Soon)
 
+<br><br>
+>  ### Update 8/2/2023
+> 
+> 1.   :white_check_mark:CausalFast Beta is available.
+> 2.   :white_check_mark:Specifications + Theory + Jupyter Notebooks are available.
+> 3.   :fire:DoWhy version 0.10 has been released!
+> 
+> Install CausalFast using the following command:
+> 
+>     pip install -i https://test.pypi.org/simple/ causalfast
+>
+<br>
 
 <br><br>
 >  ### Update 7/22/2023
