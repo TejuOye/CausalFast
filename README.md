@@ -2,8 +2,9 @@
 # CausalFast
 #### An API and Causality Theory for using DoWhy in Python
 
-1.   Download the CausalFast API for use with DoWhy [`here`](https://test.pypi.org/project/causalfast/)
-2.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CausalTheory.md)
+1.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CausalTheory.md)
+2.   Download the CausalFast API for use with DoWhy [`here`](https://test.pypi.org/project/causalfast/)
+3.   Read the CausalFast API Specifications [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CF-API-Specifications.md)
 <br>
 
 <b>Tutorials:</b>
