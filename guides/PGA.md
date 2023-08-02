@@ -14,7 +14,6 @@
  
 - Pastoriza, D., Alegre, I., & Canela, M.A. (2021). Conditioning the effect of prize on tournament self-selection. J. Econ. Psychol., 86, 102,414.
 - 22 Dimensions: TournamentPrizeMoney, CompetitivenessTournament, AbilityRanking, CumulativeCareerMoney, ExemptNextSeason, Temperature, Injury, etc.
-- 54,915 observations (1996-2006)
+- 54,915 observations (1996-2006)<br><br>
 
-<br>
 <b>Tutorial Notebook:</b> DoWhy Causal Inference & Effect Estimation [`available here`](https://github.com/TejuOye/CausalFast/blob/main/api/notebooks/PGA-InferenceAndEstimation.ipynb) </b>
