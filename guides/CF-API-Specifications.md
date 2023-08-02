@@ -16,17 +16,26 @@ Table of Contents:
 
 <br>
 ### 2: Core Functions<br>
+
 CausalFast has two core functions.
 <br>
+
 ##### 2-1 - DAG Maker<br>
+
 The DAG Maker
+
 <br>
 ##### 2-2 - Causal Model<br>
+
 The Causal Model
 <br>
+
 ##### 2-3 - Simulator<br>
+
 The Simulator
 <br>
+
 ### 3: Tutorials & Notebooks<br>
+
 Notebooks
 <br>
