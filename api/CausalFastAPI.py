@@ -144,7 +144,7 @@ class functions:
             print('Estimand:', identified_estimand)
         def eststep(model, identified_estimand, estmethod, estmethodparam,verbose=True):
             estimate = model.estimate_effect(identified_estimand,
-            method_name=estmethod, test_significance=True,method_params = estmethodparam)
+            method_name=estmethod, method_params = estmethodparam)
             print('Estimate Value:           ',estimate.__dict__.get('value'))
             print('Estimand Expression:      ',estimate.__dict__.get('realized_estimand_expr'))
             print('Control Value:            ',estimate.__dict__.get('control_value'))
@@ -262,7 +262,7 @@ class functions:
                     elif estmethod == 'backdoor.propensity_score_stratification':
                         unitparam = 'att'
                         print('Propensity Score Unit: ATT')
-                        estmethodparam = None
+                        estmethodparam = {'num_strata':50, 'clipping_threshold':5}
                     elif estmethod == 'backdoor.propensity_score_matching':
                         unitparam = 'atc'
                         print('Propensity Score Unit: ATC')
@@ -271,6 +271,7 @@ class functions:
                         unitparam = 'ate'
                         print('Propensity Score Unit: ATE')
                         estmethodparam = {"weighting_scheme":"ips_weight"}
+
                 #else:
                 #    unitparam = None
                 #    estmethodparam = None
@@ -282,7 +283,7 @@ class functions:
             newline()
             estbreak()
             estimate = cmodel.estimate_effect(identified_estimand,
-            method_name=estmethod, test_significance=True,method_params = estmethodparam, target_units = unitparam)
+            method_name=estmethod, method_params = estmethodparam, target_units = unitparam)
             print(estimate)
             print('Propensity Scores:        ',estimate.__dict__.get('params').get('propensity_scores'))
             pscores = estimate.__dict__.get('params').get('propensity_scores')
@@ -378,7 +379,7 @@ class functions:
                     elif estmethod == 'backdoor.propensity_score_stratification':
                         unitparam = 'att'
                         print('Propensity Score Unit: ATT')
-                        estmethodparam = None
+                        estmethodparam = {'num_strata':50, 'clipping_threshold':5}
                     elif estmethod == 'backdoor.propensity_score_matching':
                         unitparam = 'atc'
                         print('Propensity Score Unit: ATC')
@@ -387,6 +388,7 @@ class functions:
                         unitparam = 'ate'
                         print('Propensity Score Unit: ATE')
                         estmethodparam = {"weighting_scheme":"ips_weight"}
+
             elif estimandcheck != 'iv' and estimandcheck != 'frontdoor' and estimandcheck != 'backdoor':
                 nodag()
                 return
@@ -706,7 +708,6 @@ class functions:
                         stringcomment()
                         newline()
                     cmodel = CausalModel(data=dataset,treatment=treatment,outcome=outcome,graph=digraph)
-                    cmodel.view_model()
                     newline()
                     returnstatement()
                     strValue2 = strValue2[3:-3]
