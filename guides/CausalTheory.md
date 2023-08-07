@@ -106,7 +106,7 @@ Shown is the Backdoor Estimand. Here we have conditional dependence due to a con
 Here is the Instrumental Variable, which is a type of DAG which shows a single variable, IV, that has a direct cause of the selection/strength of the treatment X, on the outcome Y.
 
 ### Lesson 8: Causal Analysis in Python Using DoWhy, EconML, CausalFast
-Using these estimand, DoWhy will use an algorithm, typically linear regression, logistic regression using GLM, or a machine learning method to estimate the treatment effect. Alternatively, DoWhy has propensity score estimators that operate upon the backdoor estimand. It is important to know what estimation methods are available in DoWhy depending on the type of estimand. EconML estimators may be useful for nonparametric or very high dimensionality estimation of treatment effects, and these functions can be called directly within DoWhy. DoWhy estimation methods in CausalFast include:
+Using the estimand, DoWhy will use an algorithm, typically linear regression, logistic regression using GLM, a distance measure, or a machine learning method to estimate the treatment effect. Alternatively, DoWhy has propensity score estimators that operate upon the backdoor estimand. It is important to know what estimation methods are available in DoWhy depending on the type of estimand. EconML estimators may be useful for nonparametric or very high dimensionality estimation of treatment effects, and these functions can be called directly within DoWhy. DoWhy estimation methods in CausalFast include:
 
 - backdoor.linear_regression
 - backdoor.generalized_linear_model  (logistic)
