@@ -1,6 +1,7 @@
 ![alt text](https://raw.githubusercontent.com/TejuOye/CausalFast/main/api/images/new-logo.png "CausalFast")
 # CausalFast
 #### An API and Causality Theory for using DoWhy in Python
+:warning:DoWhy 0.10 has broken API functionality. Use 0.9.1: pip install dowhy==0.9.1
 
 1.   Read the Primer to Causal Theory used by DoWhy [`here`](https://github.com/TejuOye/CausalFast/blob/main/guides/CausalTheory.md)
 2.   Download the CausalFast API for use with DoWhy [`here`](https://test.pypi.org/project/causalfast/)
