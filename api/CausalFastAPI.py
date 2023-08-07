@@ -414,6 +414,7 @@ class functions:
             checkdat = cmodel._data
             cols_to_keep = [c for c in checkdat.columns if c != 'propensity_score' and c != 'strata' and c != 'dbar' and c != 'd_y' and c != 'dbar_y']
             cmodel._data = cmodel._data[cols_to_keep]
+            return estimate[0], estimate[1]
         else:
             mainmenu()
 
@@ -740,7 +741,7 @@ class functions:
                 seed = 42
                 G = nx.DiGraph()
                 G.add_edges_from(edges)
-                pos = nx.spring_layout(G, seed=seed)
+                pos = nx.circular_layout(G)
                 visual = nx.draw(G, pos, with_labels = True, width=0.4, edge_color='red', style=':', node_size=400, arrows=True)
                 DOTG = nx.nx_pydot.to_pydot(G).to_string()
                 n = 14
