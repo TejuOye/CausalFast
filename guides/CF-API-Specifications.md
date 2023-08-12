@@ -7,7 +7,6 @@ Table of Contents:
 2.   Core Functions
   2-1.   DAG Maker & Causal Model Maker
   2-2.   Simulator
-3.   Tutorials & Notebooks
 ```
 <br>
 
