@@ -5,9 +5,8 @@ Table of Contents:
 
 1.   The CausalFast Approach
 2.   Core Functions
-  2-1.   DAG Maker
-  2-2.   Causal Model
-  2-3.   Simulator
+  2-1.   DAG Maker & Causal Model Maker
+  2-2.   Simulator
 3.   Tutorials & Notebooks
 ```
 <br>
@@ -22,8 +21,7 @@ Main Function Call:<br>
 makegraph(function='main',edges='edges',digraph='graph',dataset='dataset',treatment='treatmentX0',outcome='outcomeY0',model='model',eda=False,verbose=True):
 ```
 
-##### 2-2 - Causal Model<br>
-##### 2-3 - Simulator<br>
+##### 2-2 - Simulator<br>
 Main Function Call:<br>
 Instrumental Variable Estimand:
 ```
