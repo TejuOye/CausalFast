@@ -16,6 +16,31 @@ Table of Contents:
 As of version 0.10 DoWhy's functionality is organized under four official APIs: Causal Inference API, GCM / Functional API, Lightweight Pandas API, and the causal prediction API. CausalFast is itself an API layer over the DoWhy Causal Inference API. 
 
 ### 2: Core Functions<br>
+
+Estimators:<br>
+Instrumental Variable Estimand:
+```
+iv.instrumental_variable
+```
+<br>
+Frontdoor Estimand:
+
+```
+frontdoor.two_stage_regression
+```
+<br>
+Backdoor Estimand:
+
+```
+backdoor.linear_regression
+backdoor.generalized_linear_model
+backdoor.econml.dr.LinearDRLearner
+backdoor.econml.dml.DML
+backdoor.propensity_score_stratification
+```
+
+
+
 ##### 2-1 - DAG Maker<br>
 ##### 2-2 - Causal Model<br>
 ##### 2-3 - Simulator<br>
